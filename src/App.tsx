@@ -169,7 +169,7 @@ export default function App() {
           <div className="container mx-auto px-6">
             <div className="mb-16 text-center">
               {/* VERSION 2.0 - UPDATED IMAGES - 2026-04-20 */}
-              <h2 className="text-3xl font-extrabold uppercase tracking-tighter text-neutral-950 md:text-6xl">Provas Reais de Transformação</h2>
+              <h2 className="text-3xl font-semibold tracking-tight text-neutral-950 md:text-5xl">Transformações que inspiram</h2>
               <p className="mt-4 text-neutral-500">Resultados que comprovam a excelência e o cuidado em cada detalhe.</p>
             </div>
             <motion.div 

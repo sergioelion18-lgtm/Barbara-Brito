@@ -168,8 +168,9 @@ export default function App() {
         <section id="results" className="bg-white py-24">
           <div className="container mx-auto px-6">
             <div className="mb-16 text-center">
-              <h2 className="text-3xl font-semibold tracking-tight text-neutral-950 md:text-5xl">Resultados Reais</h2>
-              <p className="mt-4 text-neutral-500">Transformações que mudaram vidas e devolveram sorrisos.</p>
+              {/* VERSION 2.0 - UPDATED IMAGES - 2026-04-20 */}
+              <h2 className="text-3xl font-extrabold uppercase tracking-tighter text-neutral-950 md:text-6xl">Provas Reais de Transformação</h2>
+              <p className="mt-4 text-neutral-500">Resultados que comprovam a excelência e o cuidado em cada detalhe.</p>
             </div>
             <motion.div 
               variants={staggerContainer}
@@ -180,11 +181,11 @@ export default function App() {
             >
               {[
                 "https://i.imgur.com/scyzBU6.png",
-                "https://i.imgur.com/ZqxMR1i.png",
-                "https://i.imgur.com/jJl8h2h.png",
                 "https://i.imgur.com/9kVYetf.png",
                 "https://i.imgur.com/lQk9WP5.png",
-                "https://i.imgur.com/dxLAc40.png"
+                "https://i.imgur.com/dxLAc40.png",
+                "https://i.imgur.com/qo6wryz.png",
+                "https://i.imgur.com/8zhrZwr.png"
               ].map((src, i) => (
                 <motion.div 
                   key={i} 
